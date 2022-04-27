@@ -1,0 +1,80 @@
+
+body{
+    background-color: #860972;
+    font-size: 100%;
+    margin: 10px;
+    color: white;
+}
+
+.header{
+    color:#ecd0d1;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    justify-content: space-around 25px;
+    padding: 10px;
+    margin: 05px;
+    text-decoration: none;
+}
+
+.conteudo{
+    color: #ecd0d1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 0.4px white solid;
+    border-bottom: 0.4px white solid;
+    justify-content: space-around;
+}
+
+.conteudo-escrito{
+    color: #ecd0d1;;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+}
+
+button{
+    border-radius: 8px;
+    background: #8b0968;
+    box-shadow: inset 14px 14px 50px #840963,
+            inset -14px -14px 50px #92096d;
+    
+    font-size: 15px;
+    padding: 5px;
+    display: block;
+    align-items: center;
+}
+
+button:hover{
+    color: rgb(114, 4, 77);
+    background: #E0E0F0;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.header a:hover{
+    color: rgb(114, 4, 77);
+    background: #E0E0F0;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+footer{
+    height:90px;
+}
+
+.discord, .spotify{
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-around 05px;
+}
+
